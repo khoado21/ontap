@@ -1,5 +1,4 @@
 <?php
-include 'common_helper.php';
 function addkh(){
     include 'connection.php';
     if($_SERVER["REQUEST_METHOD"] == "POST")

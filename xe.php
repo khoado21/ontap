@@ -1,5 +1,4 @@
 <?php
-include 'common_helper.php';
 function selectxe(){
     include 'connection.php';
     $stmt = $conn->query("select * from xe");
@@ -20,6 +19,5 @@ function select_top_xe()
     $stmt->execute();
     $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
     $json = json_encode($result);
-    pre($json);
     return $json;
 }

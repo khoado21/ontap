@@ -1,4 +1,5 @@
 <?php
+include 'common_helper.php';
 include 'khachhang.php';
 include 'xe.php';
 include 'hopdong.php';
