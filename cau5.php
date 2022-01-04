@@ -25,12 +25,6 @@
             var MAHD = $('#MAHD').val();
             selectxe(MAHD);
         })
-    })
-</script>
-
-<script>
-    function myfunc()
-    {
         $(document).ready(function(){
             $(document).on('click', '.delete', function(){
             var MAXE = $(this).val();
@@ -38,14 +32,9 @@
             delete_cthd(MAXE, MAHD);
             });
         });
-        // $(".select_xe_hd tbody").on("click", "tr", function() {
-        //     //var MAXE = $("button").val();
-        //     //var MAHD = $('#MAHD').val();
-        //     //delete_cthd(MAXE, MAHD);
-        //     //$(this).remove();
-        // });
-    }
+    })
 </script>
+
 
 <div>
     <div id="selectkh"></div>

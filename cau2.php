@@ -33,7 +33,6 @@ $list = select_all_kh();
                 <?php endforeach; ?>
             </select>
         </div>
-
         <br>
         <div>
             <label for="TENKH">Tên xe</label>
@@ -51,6 +50,5 @@ $list = select_all_kh();
         <br>
         <input type="submit" value="thuê xe">
     </form>
-    <?php addhd(); ?>
     <?php addcthd(); ?>
 </div>

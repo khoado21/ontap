@@ -17,17 +17,21 @@ include 'khachhang.php';
             <label for="MAKH">Mã khách hàng</label>
             <input type="text" name="MAKH">
         </div>
-<br>
+        <br>
         <div>
             <label for="TENKH">Tên khách hàng</label>
             <input type="text" name="TENKH">
         </div>
-<br>
+        <br>
         <div>
             <label for="TENKH">Điện thoại</label>
             <input type="text" name="SDT">
         </div>
-
+        <br>
+        <div>
+            <label for="TENKH">Địa chỉ</label>
+            <input type="text" name="DIACHI">
+        </div>
         <input type="submit" value="submit">
     </form>
 </div>

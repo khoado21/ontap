@@ -62,7 +62,7 @@ function selectxe(MAHD) {
                 html += '<tr class="myTableRow">';
                 html += '<td>' + item['TENXE'] + '</td>';
                 html += "<td>";
-                html += "<button class='delete' onclick='myfunc()' id='button_"+ item['MAXE']+ "' " + "value="+ item['MAXE'] +">" + "Delete" + "</input>";
+                html += "<button class='delete' " + "value="+ item['MAXE'] +">" + "Delete" + "</button>";
                 html +="</td>";
                 html += '</tr>';
             });
